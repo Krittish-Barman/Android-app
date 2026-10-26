@@ -230,6 +230,3 @@ If you like the project, please give it a ⭐
 
 ---
 
-## 📄 License
-
-Choose a license when you create the repo (the MIT License is a common simple choice) and add a `LICENSE` file.
