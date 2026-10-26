@@ -13,10 +13,12 @@ No account. No server. No ads. **No INTERNET permission**, so the app cannot upl
 
 ## 📸 Screenshots
 
-> Add your screenshots here (use fake data only, never real SMS or bank details).
+| Home | Money | Focus | Stats |
+|:----:|:-----:|:-----:|:-----:|
+| <img src="screenshots/home.jpg" width="200"/> | <img src="screenshots/money.jpg" width="200"/> | <img src="screenshots/focus.jpg" width="200"/> | <img src="screenshots/stats.jpg" width="200"/> |
+| Today's dashboard with "Up next" | Budget bar and expenses | Focus timer with subjects | Study time and habit completion |
 
-| Home | Habits | Money | Focus | Stats |
-|------|--------|-------|-------|-------|
+------|--------|-------|-------|-------|
 | `screenshots/home.png` | `screenshots/habits.png` | `screenshots/money.png` | `screenshots/focus.png` | `screenshots/stats.png` |
 
 **Demo:** `screenshots/demo.gif`
@@ -65,7 +67,7 @@ No account. No server. No ads. **No INTERNET permission**, so the app cannot upl
 
 ## 📥 Option 1: Install the app (no coding needed)
 
-1. Go to the **[Releases](../../releases)** page of this repository.
+1. Go to the **[Releases](https://github.com/Krittish-Barman/Android-app/releases)** page of this repository.
 2. Download `DailyTracker-v1.0.apk` to your phone.
 3. Open the file. If Android asks, allow **"Install unknown apps"** for your browser or file manager.
 4. Open **Daily Tracker** and follow the 3-step welcome screen.
@@ -82,7 +84,8 @@ No account. No server. No ads. **No INTERNET permission**, so the app cannot upl
 
 1. **Download the code**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/Krittish-Barman/Android-app.git
+   cd Android-app
    ```
    (or click **Code → Download ZIP** on GitHub and unzip it)
 2. Open Android Studio → **File → Open** → choose the project folder.
@@ -208,7 +211,7 @@ app/src/main/java/com/krittish/dailytracker/
 
 ## 🤝 Contributing
 
-Ideas and bug reports are welcome. Open an **Issue**, or send a **Pull Request**. When sharing SMS samples, always remove names, account numbers and balances.
+Ideas and bug reports are welcome. Open an [Issue](https://github.com/Krittish-Barman/Android-app/issues), or send a **Pull Request**. When sharing SMS samples, always remove names, account numbers and balances.
 
 ---
 
@@ -221,7 +224,7 @@ This is a personal project for learning and daily use. Always check your entries
 ## 👤 Author
 
 **Krittish Barman**, MCA student, Kolkata
-GitHub: [@your-username](https://github.com/your-username) · LinkedIn: [your-profile](https://www.linkedin.com/in/your-profile)
+GitHub: [@Krittish-Barman](https://github.com/Krittish-Barman) · Project: [Android-app](https://github.com/Krittish-Barman/Android-app)
 
 If you like the project, please give it a ⭐
 
