@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- 5 bottom tabs. Their ids MUST match the ids in menu/bottom_nav.xml -->
+    <fragment android:id="@+id/homeFragment" android:name="com.krittish.dailytracker.ui.home.HomeFragment" android:label="Home" />
+    <fragment android:id="@+id/habitsFragment" android:name="com.krittish.dailytracker.ui.habits.HabitsFragment" android:label="Habits" />
+    <fragment android:id="@+id/moneyFragment" android:name="com.krittish.dailytracker.ui.money.MoneyFragment" android:label="Money" />
+    <fragment android:id="@+id/focusFragment" android:name="com.krittish.dailytracker.ui.focus.FocusFragment" android:label="Focus" />
+    <fragment android:id="@+id/statsFragment" android:name="com.krittish.dailytracker.ui.stats.StatsFragment" android:label="Stats" />
+
+    <!-- Other screens -->
+    <fragment android:id="@+id/settingsFragment" android:name="com.krittish.dailytracker.ui.settings.SettingsFragment" android:label="Settings" />
+    <fragment android:id="@+id/habitDetailFragment" android:name="com.krittish.dailytracker.ui.habits.HabitDetailFragment" android:label="Habit" />
+    <fragment android:id="@+id/addEditHabitFragment" android:name="com.krittish.dailytracker.ui.habits.AddEditHabitFragment" android:label="Add habit" />
+    <fragment android:id="@+id/reviewFragment" android:name="com.krittish.dailytracker.ui.money.ReviewFragment" android:label="Review" />
+    <fragment android:id="@+id/tasksFragment" android:name="com.krittish.dailytracker.ui.tasks.TasksFragment" android:label="Tasks" />
+
+    <fragment android:id="@+id/onboardingFragment" android:name="com.krittish.dailytracker.ui.onboarding.OnboardingFragment" android:label="Welcome">
+        <action
+            android:id="@+id/action_onboarding_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/onboardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

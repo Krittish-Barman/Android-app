@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dt_primary">#0F766E</color>
+    <color name="dt_on_primary">#FFFFFF</color>
+    <color name="dt_primary_dark">#115E59</color>
+    <color name="dt_container">#CCFBF1</color>
+    <color name="dt_on_container">#115E59</color>
+    <color name="dt_accent">#F97316</color>
+    <color name="dt_amber">#F59E0B</color>
+    <color name="dt_amber_soft">#FEF3C7</color>
+    <color name="dt_amber_text">#B45309</color>
+    <color name="dt_green">#16A34A</color>
+    <color name="dt_red">#DC2626</color>
+    <color name="dt_bg">#F8FAFC</color>
+    <color name="dt_surface">#FFFFFF</color>
+    <color name="dt_text">#0F172A</color>
+    <color name="dt_muted">#64748B</color>
+    <color name="dt_divider">#E2E8F0</color>
+</resources>

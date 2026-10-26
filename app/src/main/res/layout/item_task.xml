@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:colorBackground"
+    android:gravity="center_vertical"
+    android:minHeight="56dp"
+    android:orientation="horizontal">
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbDone"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="Mark task done" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.DT.Title" />
+
+        <TextView
+            android:id="@+id/tvMeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.DT.Caption" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnPin"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Pin to today's top 3"
+        android:gravity="center"
+        android:textColor="@color/dt_amber"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment" android:icon="@drawable/ic_home" android:title="Home" />
+    <item android:id="@+id/habitsFragment" android:icon="@drawable/ic_habits" android:title="Habits" />
+    <item android:id="@+id/moneyFragment" android:icon="@drawable/ic_money" android:title="Money" />
+    <item android:id="@+id/focusFragment" android:icon="@drawable/ic_focus" android:title="Focus" />
+    <item android:id="@+id/statsFragment" android:icon="@drawable/ic_stats" android:title="Stats" />
+</menu>

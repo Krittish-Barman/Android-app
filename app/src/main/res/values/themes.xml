@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DailyTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dt_primary</item>
+        <item name="colorOnPrimary">@color/dt_on_primary</item>
+        <item name="colorPrimaryContainer">@color/dt_container</item>
+        <item name="colorOnPrimaryContainer">@color/dt_on_container</item>
+        <item name="colorSecondary">@color/dt_accent</item>
+        <item name="colorSurface">@color/dt_surface</item>
+        <item name="colorOnSurface">@color/dt_text</item>
+        <item name="colorOnSurfaceVariant">@color/dt_muted</item>
+        <item name="colorOutline">@color/dt_divider</item>
+        <item name="colorError">@color/dt_red</item>
+        <item name="android:colorBackground">@color/dt_bg</item>
+    </style>
+
+    <!-- Type scale: Display 48 / Title large 22 / Title 16 / Body 14 / Caption 12 -->
+    <style name="TextAppearance.DT.Display" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.DT.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.DT.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.DT.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.DT.Caption" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <!-- Flat card, 16 dp radius, 1 dp border -->
+    <style name="Widget.DT.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/dt_divider</item>
+        <item name="cardBackgroundColor">@color/dt_surface</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+    <style name="Widget.DT.Card.Highlight">
+        <item name="cardBackgroundColor">@color/dt_container</item>
+        <item name="strokeColor">@color/dt_container</item>
+    </style>
+</resources>
