@@ -15,7 +15,7 @@ No account. No server. No ads. **No INTERNET permission**, so the app cannot upl
 
 | Home | Money | Focus | Stats |
 |:----:|:-----:|:-----:|:-----:|
-| <img src="screenshots/home.jpg" width="200"/> | <img src="screenshots/money.jpg" width="200"/> | <img src="screenshots/focus.jpg" width="200"/> | <img src="screenshots/stats.jpg" width="200"/> |
+| <img src="https://github.com/Krittish-Barman/Android-app/blob/main/focus.jpg" width="200"/> | <img src="https://github.com/Krittish-Barman/Android-app/blob/main/home.jpg" width="200"/> | <img src="https://github.com/Krittish-Barman/Android-app/blob/main/money.jpg" width="200"/> | <img src="screenshots/stats.jpg" width="200"/> |
 | Today's dashboard with "Up next" | Budget bar and expenses | Focus timer with subjects | Study time and habit completion |
 
 ------|--------|-------|-------|-------|
